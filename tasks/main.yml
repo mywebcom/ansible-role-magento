@@ -1,0 +1,3 @@
+---
+- name: add magento log rotator script
+  template: src=logrotate.d.magento dest=/etc/logrotate.d/magento owner=root group=root mode=0644

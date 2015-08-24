@@ -1,0 +1,9 @@
+{{magento_log_path}}/*.log {
+    create 0664 {{web_user}} {{web_user}}
+    daily
+    missingok
+    rotate 20
+    compress
+    delaycompress
+    notifempty
+}
